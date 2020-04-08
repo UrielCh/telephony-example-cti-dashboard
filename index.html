@@ -468,11 +468,11 @@
                                                     <td><small>{{ event.Data.Protocol }}</small></td>
                                                     <td><small>{{ event.Event }}</small></td>
                                                     <td class="center" ng-if="event.Ressource != event.Data.Called && event.Ressource == event.Data.Calling"><small>
-                                                        <b>{{event.Ressource}}</b>&nbsp;<span  class="fa fa-sign-in" aria-hidden="true"></span> {{event.Data.Called}}</small></td>
+                                                            <b>{{event.Ressource}}</b>&nbsp;<span  class="fa fa-sign-in" aria-hidden="true"></span> {{event.Data.Called}}</small></td>
                                                     <td class="center" ng-if="event.Ressource != event.Data.Calling && event.Ressource == event.Data.Called"><small>
-                                                        {{event.Data.Calling}} <span class="fa fa-sign-out" aria-hidden="true">&nbsp;<b>{{event.Ressource}}</b></span></small></td>
+                                                            {{event.Data.Calling}} <span class="fa fa-sign-out" aria-hidden="true">&nbsp;<b>{{event.Ressource}}</b></span></small></td>
                                                     <td class="center" ng-if="event.Ressource == event.Data.Calling && event.Ressource == event.Data.Called"><small>
-                                                        <span class="fa fa-gears" aria-hidden="true">&nbsp;<b>{{event.Ressource}}</b></small></span>
+                                                            <span class="fa fa-gears" aria-hidden="true">&nbsp;<b>{{event.Ressource}}</b></small></span>
                                                     </td>
                                                     <td class="center" ng-if="event.Ressource != event.Data.Calling && event.Ressource != event.Data.Called"><small>
                                                         <span class="fa fa-gears" aria-hidden="true">&nbsp;<b>{{event.Ressource}}</b></small></span>
